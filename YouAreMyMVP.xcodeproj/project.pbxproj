@@ -84,29 +84,101 @@
 		D78568862704AE3200DA9519 /* YouAreMyMVP */ = {
 			isa = PBXGroup;
 			children = (
-				D78568C82705572700DA9519 /* HomeScreenSceneRouter.swift */,
 				D78568872704AE3200DA9519 /* AppDelegate.swift */,
-				D785688B2704AE3200DA9519 /* HomeViewController.swift */,
-				D785688D2704AE3200DA9519 /* Main.storyboard */,
-				D78568902704AE3400DA9519 /* Assets.xcassets */,
-				D78568922704AE3400DA9519 /* LaunchScreen.storyboard */,
-				D78568952704AE3400DA9519 /* Info.plist */,
-				D785689C2704AE8E00DA9519 /* AppInitializerFlow.swift */,
-				D785689F2704AEB900DA9519 /* StoryboardIdentifiers.swift */,
-				D78568A32704B03A00DA9519 /* SplashScreenViewController.swift */,
-				D78568A92704B0D500DA9519 /* SplashScreenSceneSconfigurator.swift */,
-				D78568A62704B04800DA9519 /* SplashScreen.storyboard */,
-				D78568AC2704B19A00DA9519 /* SplashScreenScenePresenter.swift */,
-				D78568CC2705587500DA9519 /* HomeScreenScenePresenter.swift */,
-				D78568AF2704B21100DA9519 /* SplashScreenSceneRouter.swift */,
-				D78568C127054DD500DA9519 /* BaseViewRouter.swift */,
-				D78568B32704B37400DA9519 /* SegueIdentifiers.swift */,
-				D78568B62704BB7200DA9519 /* Home.storyboard */,
-				D78568BB2704BF4000DA9519 /* HomeSceneSconfigurator.swift */,
-				D78568BE27054C5400DA9519 /* SplashScreenView.swift */,
-				D78568D027055C0B00DA9519 /* HomeScreenView.swift */,
+				D78568E62705745100DA9519 /* Scenes */,
+				D78568E7270574EA00DA9519 /* Storyboards */,
+				D78568EB2705759B00DA9519 /* Supporting Files */,
+				D78568EC270575DD00DA9519 /* UseCases */,
+				D78568E42705743E00DA9519 /* Core */,
 			);
 			path = YouAreMyMVP;
+			sourceTree = "<group>";
+		};
+		D78568DE270573BF00DA9519 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D78568C82705572700DA9519 /* HomeScreenSceneRouter.swift */,
+				D785688B2704AE3200DA9519 /* HomeViewController.swift */,
+				D78568CC2705587500DA9519 /* HomeScreenScenePresenter.swift */,
+				D78568BB2704BF4000DA9519 /* HomeSceneSconfigurator.swift */,
+				D78568D027055C0B00DA9519 /* HomeScreenView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D78568E0270573DD00DA9519 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D78568A32704B03A00DA9519 /* SplashScreenViewController.swift */,
+				D78568A92704B0D500DA9519 /* SplashScreenSceneSconfigurator.swift */,
+				D78568AC2704B19A00DA9519 /* SplashScreenScenePresenter.swift */,
+				D78568AF2704B21100DA9519 /* SplashScreenSceneRouter.swift */,
+				D78568BE27054C5400DA9519 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		D78568E22705742900DA9519 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D785689F2704AEB900DA9519 /* StoryboardIdentifiers.swift */,
+				D78568B32704B37400DA9519 /* SegueIdentifiers.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D78568E42705743E00DA9519 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D78568E82705757E00DA9519 /* Base */,
+				D78568E22705742900DA9519 /* Constants */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D78568E62705745100DA9519 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D78568DE270573BF00DA9519 /* Home */,
+				D78568E0270573DD00DA9519 /* SplashScreen */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D78568E7270574EA00DA9519 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D78568B62704BB7200DA9519 /* Home.storyboard */,
+				D785688D2704AE3200DA9519 /* Main.storyboard */,
+				D78568922704AE3400DA9519 /* LaunchScreen.storyboard */,
+				D78568A62704B04800DA9519 /* SplashScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D78568E82705757E00DA9519 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D78568C127054DD500DA9519 /* BaseViewRouter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D78568EB2705759B00DA9519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D78568902704AE3400DA9519 /* Assets.xcassets */,
+				D78568952704AE3400DA9519 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D78568EC270575DD00DA9519 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				D785689C2704AE8E00DA9519 /* AppInitializerFlow.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
