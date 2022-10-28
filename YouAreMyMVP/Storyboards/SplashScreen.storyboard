@@ -35,22 +35,11 @@
                     <connections>
                         <outlet property="button" destination="Okf-if-Nfn" id="sj2-T2-74P"/>
                         <outlet property="label" destination="zv5-Zj-0WA" id="hWj-oi-k4j"/>
-                        <segue destination="McM-7e-nxo" kind="show" identifier="showHome" id="hz3-qt-aai"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKU-Nn-NmB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-339.13043478260875" y="-54.241071428571423"/>
-        </scene>
-        <!--Home-->
-        <scene sceneID="O5s-Ls-iMg">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="McM-7e-nxo" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Bci-2q-J4j"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pVE-Hz-qLF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="321" y="-54"/>
         </scene>
     </scenes>
     <resources>

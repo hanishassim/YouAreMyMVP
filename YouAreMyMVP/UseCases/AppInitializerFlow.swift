@@ -23,7 +23,7 @@ protocol AppInitializerFlow {
 
 class AppInitializerFlowImplementation: AppInitializerFlow {
 
-    private (set) var storyboardID = StoryboardIdentifiers.main
+    private (set) var storyboardID = StoryboardIdentifiers.home
 
     func setupAppFlow(for source: AppFlowSource) {
         switch source {
@@ -31,7 +31,7 @@ class AppInitializerFlowImplementation: AppInitializerFlow {
             self.storyboardID = StoryboardIdentifiers.splashScreen
 
         case .splashScreen:
-            self.storyboardID = StoryboardIdentifiers.main
+            self.storyboardID = StoryboardIdentifiers.home
         }
 
         guard let _appDelegate = UIApplication.shared.delegate as? AppDelegate,

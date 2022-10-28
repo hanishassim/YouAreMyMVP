@@ -20,6 +20,8 @@ class SplashScreenSceneRouterImplementation: SplashScreenSceneRouter {
     }
     
     func showHome() {
-        self.controller?.performSegue(withIdentifier: SegueIdentifiers.splashSceneToHome, sender: nil)
+        // Setup app home flow
+        let appFlow = AppInitializerFlowImplementation.init()
+        appFlow.setupAppFlow(for: .splashScreen)
     }
 }

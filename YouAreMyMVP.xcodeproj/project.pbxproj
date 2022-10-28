@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74B0340270AEB7600967B5C /* DetailScreenSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B033F270AEB7600967B5C /* DetailScreenSceneRouter.swift */; };
+		D74B0343270AEB7D00967B5C /* DetailScreenScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B0342270AEB7D00967B5C /* DetailScreenScenePresenter.swift */; };
+		D74B0346270AEB9D00967B5C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B0345270AEB9D00967B5C /* DetailViewController.swift */; };
+		D74B0349270AEBA700967B5C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B0348270AEBA700967B5C /* DetailView.swift */; };
+		D74B034C270AEBBB00967B5C /* DetailSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B034B270AEBBB00967B5C /* DetailSceneConfigurator.swift */; };
 		D78568882704AE3200DA9519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78568872704AE3200DA9519 /* AppDelegate.swift */; };
 		D785688C2704AE3200DA9519 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785688B2704AE3200DA9519 /* HomeViewController.swift */; };
-		D785688F2704AE3200DA9519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D785688D2704AE3200DA9519 /* Main.storyboard */; };
 		D78568912704AE3400DA9519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78568902704AE3400DA9519 /* Assets.xcassets */; };
 		D78568942704AE3400DA9519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78568922704AE3400DA9519 /* LaunchScreen.storyboard */; };
 		D785689D2704AE8E00DA9519 /* AppInitializerFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785689C2704AE8E00DA9519 /* AppInitializerFlow.swift */; };
@@ -27,13 +31,22 @@
 		D78568C92705572700DA9519 /* HomeScreenSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78568C82705572700DA9519 /* HomeScreenSceneRouter.swift */; };
 		D78568CD2705587500DA9519 /* HomeScreenScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78568CC2705587500DA9519 /* HomeScreenScenePresenter.swift */; };
 		D78568D127055C0B00DA9519 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78568D027055C0B00DA9519 /* HomeScreenView.swift */; };
+		D7C6B15D270D7FAC004719A3 /* ReportScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6B15C270D7FAC004719A3 /* ReportScenePresenter.swift */; };
+		D7C6B160270D7FB4004719A3 /* ReportSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6B15F270D7FB4004719A3 /* ReportSceneConfigurator.swift */; };
+		D7C6B163270D7FBE004719A3 /* ReportSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6B162270D7FBE004719A3 /* ReportSceneRouter.swift */; };
+		D7C6B166270D7FCF004719A3 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6B165270D7FCF004719A3 /* ReportViewController.swift */; };
+		D7C6B169270D7FD8004719A3 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6B168270D7FD8004719A3 /* ReportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D74B033F270AEB7600967B5C /* DetailScreenSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenSceneRouter.swift; sourceTree = "<group>"; };
+		D74B0342270AEB7D00967B5C /* DetailScreenScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenScenePresenter.swift; sourceTree = "<group>"; };
+		D74B0345270AEB9D00967B5C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D74B0348270AEBA700967B5C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D74B034B270AEBBB00967B5C /* DetailSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSceneConfigurator.swift; sourceTree = "<group>"; };
 		D78568842704AE3200DA9519 /* YouAreMyMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouAreMyMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78568872704AE3200DA9519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D785688B2704AE3200DA9519 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D785688E2704AE3200DA9519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D78568902704AE3400DA9519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D78568932704AE3400DA9519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D78568952704AE3400DA9519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +65,11 @@
 		D78568C82705572700DA9519 /* HomeScreenSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenSceneRouter.swift; sourceTree = "<group>"; };
 		D78568CC2705587500DA9519 /* HomeScreenScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenScenePresenter.swift; sourceTree = "<group>"; };
 		D78568D027055C0B00DA9519 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		D7C6B15C270D7FAC004719A3 /* ReportScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScenePresenter.swift; sourceTree = "<group>"; };
+		D7C6B15F270D7FB4004719A3 /* ReportSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSceneConfigurator.swift; sourceTree = "<group>"; };
+		D7C6B162270D7FBE004719A3 /* ReportSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSceneRouter.swift; sourceTree = "<group>"; };
+		D7C6B165270D7FCF004719A3 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		D7C6B168270D7FD8004719A3 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D74B034E270AEBC200967B5C /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D74B033F270AEB7600967B5C /* DetailScreenSceneRouter.swift */,
+				D74B0342270AEB7D00967B5C /* DetailScreenScenePresenter.swift */,
+				D74B0345270AEB9D00967B5C /* DetailViewController.swift */,
+				D74B0348270AEBA700967B5C /* DetailView.swift */,
+				D74B034B270AEBBB00967B5C /* DetailSceneConfigurator.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
 		D785687B2704AE3200DA9519 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +117,7 @@
 				D78568872704AE3200DA9519 /* AppDelegate.swift */,
 				D78568E62705745100DA9519 /* Scenes */,
 				D78568E7270574EA00DA9519 /* Storyboards */,
+				D78568952704AE3400DA9519 /* Info.plist */,
 				D78568EB2705759B00DA9519 /* Supporting Files */,
 				D78568EC270575DD00DA9519 /* UseCases */,
 				D78568E42705743E00DA9519 /* Core */,
@@ -141,6 +172,8 @@
 			children = (
 				D78568DE270573BF00DA9519 /* Home */,
 				D78568E0270573DD00DA9519 /* SplashScreen */,
+				D74B034E270AEBC200967B5C /* DetailScreen */,
+				D7C6B16B270D8609004719A3 /* Report */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -149,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				D78568B62704BB7200DA9519 /* Home.storyboard */,
-				D785688D2704AE3200DA9519 /* Main.storyboard */,
 				D78568922704AE3400DA9519 /* LaunchScreen.storyboard */,
 				D78568A62704B04800DA9519 /* SplashScreen.storyboard */,
 			);
@@ -168,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				D78568902704AE3400DA9519 /* Assets.xcassets */,
-				D78568952704AE3400DA9519 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,6 +210,18 @@
 				D785689C2704AE8E00DA9519 /* AppInitializerFlow.swift */,
 			);
 			path = UseCases;
+			sourceTree = "<group>";
+		};
+		D7C6B16B270D8609004719A3 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6B15C270D7FAC004719A3 /* ReportScenePresenter.swift */,
+				D7C6B15F270D7FB4004719A3 /* ReportSceneConfigurator.swift */,
+				D7C6B162270D7FBE004719A3 /* ReportSceneRouter.swift */,
+				D7C6B165270D7FCF004719A3 /* ReportViewController.swift */,
+				D7C6B168270D7FD8004719A3 /* ReportView.swift */,
+			);
+			path = Report;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +285,6 @@
 				D78568B72704BB7200DA9519 /* Home.storyboard in Resources */,
 				D78568942704AE3400DA9519 /* LaunchScreen.storyboard in Resources */,
 				D78568912704AE3400DA9519 /* Assets.xcassets in Resources */,
-				D785688F2704AE3200DA9519 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +297,27 @@
 			files = (
 				D78568B42704B37400DA9519 /* SegueIdentifiers.swift in Sources */,
 				D78568AD2704B19A00DA9519 /* SplashScreenScenePresenter.swift in Sources */,
+				D7C6B163270D7FBE004719A3 /* ReportSceneRouter.swift in Sources */,
 				D78568CD2705587500DA9519 /* HomeScreenScenePresenter.swift in Sources */,
 				D78568A02704AEB900DA9519 /* StoryboardIdentifiers.swift in Sources */,
 				D785689D2704AE8E00DA9519 /* AppInitializerFlow.swift in Sources */,
 				D78568A42704B03A00DA9519 /* SplashScreenViewController.swift in Sources */,
 				D785688C2704AE3200DA9519 /* HomeViewController.swift in Sources */,
+				D7C6B166270D7FCF004719A3 /* ReportViewController.swift in Sources */,
 				D78568882704AE3200DA9519 /* AppDelegate.swift in Sources */,
+				D74B0343270AEB7D00967B5C /* DetailScreenScenePresenter.swift in Sources */,
+				D74B0346270AEB9D00967B5C /* DetailViewController.swift in Sources */,
 				D78568AA2704B0D500DA9519 /* SplashScreenSceneSconfigurator.swift in Sources */,
 				D78568BC2704BF4000DA9519 /* HomeSceneSconfigurator.swift in Sources */,
+				D74B034C270AEBBB00967B5C /* DetailSceneConfigurator.swift in Sources */,
+				D7C6B160270D7FB4004719A3 /* ReportSceneConfigurator.swift in Sources */,
+				D74B0340270AEB7600967B5C /* DetailScreenSceneRouter.swift in Sources */,
 				D78568C92705572700DA9519 /* HomeScreenSceneRouter.swift in Sources */,
+				D7C6B169270D7FD8004719A3 /* ReportView.swift in Sources */,
 				D78568B02704B21100DA9519 /* SplashScreenSceneRouter.swift in Sources */,
+				D7C6B15D270D7FAC004719A3 /* ReportScenePresenter.swift in Sources */,
 				D78568D127055C0B00DA9519 /* HomeScreenView.swift in Sources */,
+				D74B0349270AEBA700967B5C /* DetailView.swift in Sources */,
 				D78568C227054DD500DA9519 /* BaseViewRouter.swift in Sources */,
 				D78568BF27054C5400DA9519 /* SplashScreenView.swift in Sources */,
 			);
@@ -274,14 +326,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D785688D2704AE3200DA9519 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D785688E2704AE3200DA9519 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D78568922704AE3400DA9519 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,6 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -399,6 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

@@ -10,6 +10,6 @@ class StoryboardIdentifiers {
     init() {}
     
     // Storyboard names
-    static let main = "Main"
     static let splashScreen = "SplashScreen"
+    static let home = "Home"
 }
