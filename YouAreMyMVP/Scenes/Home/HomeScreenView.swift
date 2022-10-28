@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol HomeScreenView: class {
+protocol HomeScreenView: AnyObject {
     /// Sets the screen label
     func set(label: String)
 }

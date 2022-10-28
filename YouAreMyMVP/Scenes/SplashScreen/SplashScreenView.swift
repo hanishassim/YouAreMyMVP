@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol SplashScreenView: class {
+protocol SplashScreenView: AnyObject {
     /// Sets the screen label
     func set(label: String)
     /// Sets the screen label alignment
